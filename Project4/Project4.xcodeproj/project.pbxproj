@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7419A6FB237DE6A600836463 /* Driller4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7419A6F9237DE6A600836463 /* Driller4.cpp */; };
+		7419A703237DE73400836463 /* Driller4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7419A702237DE73400836463 /* Driller4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,13 @@
 
 /* Begin PBXFileReference section */
 		7419A6EF237DE68700836463 /* Project4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project4; sourceTree = BUILT_PRODUCTS_DIR; };
-		7419A6F9237DE6A600836463 /* Driller4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Driller4.cpp; sourceTree = "<group>"; };
-		7419A6FA237DE6A600836463 /* Driller4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Driller4.hpp; sourceTree = "<group>"; };
+		7419A6FC237DE73300836463 /* AVLTreeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTreeEnumerator.h; sourceTree = "<group>"; };
+		7419A6FD237DE73300836463 /* Exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exceptions.h; sourceTree = "<group>"; };
+		7419A6FE237DE73300836463 /* Comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comparator.h; sourceTree = "<group>"; };
+		7419A6FF237DE73400836463 /* AVLTreeOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTreeOrder.h; sourceTree = "<group>"; };
+		7419A700237DE73400836463 /* AVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
+		7419A701237DE73400836463 /* Enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enumerator.h; sourceTree = "<group>"; };
+		7419A702237DE73400836463 /* Driller4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Driller4.cpp; path = ../../../Driller4.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,13 @@
 		7419A6F1237DE68700836463 /* Project4 */ = {
 			isa = PBXGroup;
 			children = (
-				7419A6F9237DE6A600836463 /* Driller4.cpp */,
-				7419A6FA237DE6A600836463 /* Driller4.hpp */,
+				7419A700237DE73400836463 /* AVLTree.h */,
+				7419A6FC237DE73300836463 /* AVLTreeEnumerator.h */,
+				7419A6FF237DE73400836463 /* AVLTreeOrder.h */,
+				7419A6FE237DE73300836463 /* Comparator.h */,
+				7419A702237DE73400836463 /* Driller4.cpp */,
+				7419A701237DE73400836463 /* Enumerator.h */,
+				7419A6FD237DE73300836463 /* Exceptions.h */,
 			);
 			path = Project4;
 			sourceTree = "<group>";
@@ -121,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7419A6FB237DE6A600836463 /* Driller4.cpp in Sources */,
+				7419A703237DE73400836463 /* Driller4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
